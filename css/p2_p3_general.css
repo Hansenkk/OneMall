@@ -1,0 +1,528 @@
+/**
+ * written by: Fangzheng Liu,
+ * id: 40116002
+ * this is style sheet file for general style in p2 and p3
+ */
+/* firstly set uniform style */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "SF pro Text";
+}
+
+ol,ul {
+	list-style-type: none;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+/* Responsive:
+	> 1200px - Computer
+	750-1200px - Tablet
+	< 750px - Mobile
+*/
+/* This is the style for Computer*/
+@media screen and (min-width:1200px) {
+	.container {
+		width: 1280px;
+		margin: 0px auto;
+	}
+	
+	/* part_1: header */
+	#header {
+		height: 40px;
+		line-height: 40px;
+		background-color: darkcyan;
+		color: white;
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+		width: 1280px;
+		margin: 0 auto;
+	}
+
+	#header .header_left span {
+		display: inline-block;
+		vertical-align: middle;
+		height: 30px;
+		width: 30px;
+		background-image: url(../img/state_icon/comp_icon.png);
+		background-size: 100% 100%;
+	}
+
+	#header .header_left div {
+		float: left;
+		margin: 0px 10px;
+	}
+
+	#header ul li {
+		float: left;
+	}
+
+	#header li a {
+		color: white;
+		font-size: 22px;
+		font-family: 'Courier New', Courier, monospace;
+		border-right: 2px solid #fff;
+		padding: 0 15px;
+		height: 30px;
+	}
+
+	#header li a:hover {
+		color: yellow;
+	}
+	/* #header .fright span {
+		width: 19px;
+		height: 16px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px;
+		background: url("../img/icons.png") no-repeat 0px -96px;
+	} */
+	
+	#header .fright span {
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px;
+		background: url("../img/cart.png") no-repeat center;
+	}
+	
+	/* part_2: banner */
+	#banner {
+		text-align: center;
+		width: 1280px;
+		height: 168px;
+		margin: 0 auto;
+	}
+
+	#banner .sbar {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 50px;
+		width: 500px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	#banner .sbtn {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 55px;
+		width: 100px;
+		font-family: 'Courier New', Courier, monospace;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	#banner .container {
+		margin-top: 80px;
+		float: left;
+	}
+
+	/* part_3: navigate menu */
+	#nav {
+		height: 40px;
+		width: 1280px;
+		background-color: rgb(12, 97, 12);
+		margin: 0 auto;
+	}
+
+	.nag li {
+		list-style: none;
+		float: left;
+		line-height: 40px;
+		width: 200px;
+		height: 40px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 'Courier New', Courier, monospace;
+		/* border: 1px solid red; */
+		z-index: 9999;
+	}
+
+	.nag .first {
+		margin-left: 0;
+		width: 600px;
+		text-align: center;
+	}
+
+	.nag li a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+		z-index: 9999;
+	}
+
+	.nag li a:hover {
+		color: yellow;
+	}
+
+	.nag li ul.dropdown li {
+		display: none;
+		z-index: 9999;
+	}
+
+	.nag li:hover .dropdown li {
+		display: inline-block;
+		z-index: 999;
+		background-color: #00CC00;
+		position: relative;
+	}
+	
+	/* part_5: footer */
+	#footer {
+		width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 34px;
+		color: #000;
+		font-weight: bold;
+	}
+}
+
+/*This is the style for tablet*/
+@media screen and (max-width:1200px) and (min-width:750px) {
+	.container {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	#header {
+		height: 40px;
+		line-height: 40px;
+		background-color: darkcyan;
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+		font-weight: bold;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#header .header_left span {
+		display: inline-block;
+		vertical-align: middle;
+		height: 30px;
+		width: 30px;
+		background-image: url(../img/state_icon/tab_icon.png);
+		background-size: 100% 100%;
+	}
+
+	#header .header_left div {
+		float: left;
+		margin: 0px 10px;
+	}
+
+	#header ul li {
+		float: left;
+	}
+
+	#header li a {
+		color: white;
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+		border-right: 2px solid #fff;
+		padding: 0 15px;
+		height: 30px;
+	}
+
+	#header li a:hover {
+		color: yellow;
+	}
+
+	/* #header .fright span {
+		width: 19px;
+		height: 16px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px;
+		background: url("../img/icons.png") no-repeat 0px -96px;
+	} */
+
+	#header .fright span {
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px;
+		background: url("../img/cart.png") no-repeat center;
+	}
+	#banner {
+		text-align: center;
+		width: 100%;
+		height: 168px;
+		margin: 0 auto;
+	}
+
+	#banner .sbar {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 50px;
+		width: 500px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	#banner .sbtn {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 55px;
+		width: 100px;
+		font-family: 'Courier New', Courier, monospace;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	#banner .container {
+		margin-top: 80px;
+		float: left;
+	}
+
+	#nav {
+		height: 40px;
+		width: 100%;
+		background-color: rgb(12, 97, 12);
+		margin: 0 auto;
+	}
+
+	.nag li {
+		list-style: none;
+		float: left;
+		line-height: 40px;
+		width: 30%;
+		height: 40px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 'Courier New', Courier, monospace;
+		/* border: 1px solid red; */
+		z-index: 9999;
+	}
+
+	.nag .first {
+		margin-left: 0;
+		width: 60%;
+		text-align: center;
+	}
+
+	.nag li a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+		z-index: 9999;
+	}
+
+	.nag li a:hover {
+		color: yellow;
+	}
+
+	.nag li ul.dropdown li {
+		display: none;
+		z-index: 9999;
+	}
+
+	.nag li:hover .dropdown li {
+		display: inline-block;
+		z-index: 999;
+		background-color: #00CC00;
+		position: relative;
+	}
+
+	/* footer */
+	#footer {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 34px;
+		color: #000;
+		font-weight: bold;
+	}
+}
+
+/*This is the style for cellphone*/
+@media screen and (max-width:750px) {
+	html {
+		font-size: 16px;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	#header {
+		height: 80px;
+		line-height: 40px;
+		background-color: darkcyan;
+		color: #fff;
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#header .header_left div {
+		float: left;
+		margin: 0px 10px;
+	}
+
+	#header ul li {
+		float: left;
+	}
+
+	#header li a {
+		color: white;
+		font-size: 80%;
+		font-family: 'Courier New', Courier, monospace;
+		border-right: 2px solid #fff;
+		padding: 0 5px;
+		height: 30px;
+	}
+
+	#header li a:hover {
+		color: yellow;
+	}
+
+	#header .header_left span {
+		display: inline-block;
+		vertical-align: middle;
+		height: 30px;
+		width: 30px;
+		background-image: url(../img/state_icon/tab_icon.png);
+		background-size: 100% 100%;
+	}
+
+	#header .fright span {
+		height:20px;
+		width: 20px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 5px;
+		background: url("../img/cart.png") no-repeat center;
+	}
+
+	#banner {
+		text-align: center;
+		width: 100%;
+		height: 168px;
+		margin: 0 auto;
+	}
+
+	#banner .sbar {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 50px;
+		width: 60%;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	#banner .sbtn {
+		font-size: 20px;
+		padding: 0 10px;
+		height: 55px;
+		width: 100px;
+		font-family: 'Courier New', Courier, monospace;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	#banner .container {
+		margin-top: 80px;
+		float: left;
+	}
+
+	#nav {
+		height: 40px;
+		width: 100%;
+		background-color: rgb(12, 97, 12);
+		margin: 0 auto;
+	}
+
+	.nag li {
+		list-style: none;
+		float: left;
+		line-height: 40px;
+		width: 40%;
+		height: 40px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 'Courier New', Courier, monospace;
+		/* border: 1px solid red; */
+		z-index: 9999;
+	}
+
+	.nag .first {
+		margin-left: 0;
+		width: 60%;
+		text-align: center;
+	}
+
+	.nag li a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		width: 100%;
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+		z-index: 9999;
+	}
+
+	.nag li a:hover {
+		color: yellow;
+	}
+
+	.nag li ul.dropdown li {
+		display: none;
+		z-index: 9999;
+	}
+
+	.nag li:hover .dropdown li {
+		display: inline-block;
+		z-index: 999;
+		width: 100%;
+		background-color: #00CC00;
+		position: relative;
+	}
+
+	/* footer */
+	#footer {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 34px;
+		color: #000;
+		font-weight: bold;
+	}
+}

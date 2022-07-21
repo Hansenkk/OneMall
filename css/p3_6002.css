@@ -1,0 +1,250 @@
+/**
+ * written by: Fangzheng Liu,
+ * id: 40116002
+ * this is style sheet file for *_6002(P3).html 
+ */
+#banner{
+	background: url("../img/p2_banner_6002.jpg") no-repeat center;
+}
+/* Responsive:
+	> 1200px - Computer
+	750-1200px - Tablet
+	< 750px - Mobile
+*/
+/* This is the style for Computer */
+@media screen and (min-width:1200px) {
+	.container {
+		width: 1280px;
+		margin: 0px auto;
+	}
+
+	/* part_4: main part */
+	#null {
+		height: 600px;
+		background-color: #eee;
+		text-align: center;
+		width: 1280px;
+		margin: 0 auto;
+	}
+
+	#null img {
+		border: 5px dotted green;
+		width: 400px;
+	}
+
+	#null img:hover {
+		width: 500px;
+	}
+
+	#null .pic {
+		float: left;
+		width: 640px;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	#null .disp {
+		float: left;
+		width: 500px;
+		height: 500px;
+		text-align: justify;
+		border-left: 5px solid green;
+		margin-top: 50PX;
+		padding-left: 50px;
+	}
+
+	#null h1,
+	h2 {
+		font-family: "SF pro Text";
+		line-height: 50px;
+	}
+
+	#null p {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	#null #quan {
+		width: 200px;
+		height: 35px;
+		margin-bottom: 50px;
+	}
+
+	#null #add,#showmore {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		font-size: 16px;
+		border: none;
+		border-radius: 10px;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	#null #showmore {
+		background-color: #D0D0D0;
+		color: black;
+	}
+
+	#null #showmore:hover {
+		background-color: #aaa;
+		color: black;
+	}
+}
+
+/*for tablet*/
+@media screen and (max-width:1200px) and (min-width:750px) {
+	.container {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	/* part_4: main part */
+	#null {
+		height: 700px;
+		background-color: #eee;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#null img {
+		border: 5px dotted darkgreen;
+		width: 60%;
+	}
+
+	#null img:hover {
+		width: 75%;
+	}
+
+	#null .pic {
+		float: left;
+		width: 45%;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	#null .disp {
+		float: left;
+		width: 45%;
+		text-align: justify;
+		border-left: 5px solid green;
+		margin-top: 50px;
+		padding-left: 50px;
+	}
+
+	#null h1,h2 {
+		font-family: "SF pro Text";
+		line-height: 50px;
+	}
+
+	#null p {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	#null #quan {
+		width: 40%;
+		height: 35px;
+		margin-bottom: 50px;
+	}
+
+	#null #add,#showmore {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		font-size: 16px;
+		border: none;
+		border-radius: 10px;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	#null #showmore {
+		background-color: #D0D0D0;
+		color: black;
+	}
+
+	#null #showmore:hover {
+		background-color: #aaa;
+		color: black;
+	}
+}
+
+/*for cellphone*/
+@media screen and (max-width:750px) {
+	html {
+		font-size: 16px;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	/* part_4: main part */
+	#null {
+		height: 1100px;
+		background-color: #eee;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#null img {
+		border: 5px dotted blue;
+		width: 90%;
+	}
+
+	#null .pic {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	#null .disp {
+		float: left;
+		text-align: justify;
+		margin-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#null h1,h2 {
+		font-family: "SF pro Text";
+		line-height: 50px;
+	}
+
+	#null p {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	#null #quan {
+		width: 40%;
+		height: 35px;
+		margin-bottom: 50px;
+	}
+
+	#null #add,#showmore {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		font-size: 16px;
+		border: none;
+		border-radius: 10px;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	#null #showmore {
+		background-color: #D0D0D0;
+		color: black;
+	}
+
+	#null #showmore:hover {
+		background-color: #aaa;
+		color: black;
+	}
+}

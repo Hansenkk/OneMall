@@ -1,0 +1,588 @@
+/**
+ * written by: Fangzheng Liu,
+ * id: 40116002
+ * this is style sheet file for regist_6002.html 
+ */
+/* Set the font of whole page */
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+/* Responsive:
+	> 1200px - Computer
+	750-1200px - Tablet
+	< 750px - Mobile
+*/
+/* This is the style for Computer*/
+@media screen and (min-width:1200px) {
+
+	/* add a background of the page */
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: linear-gradient(125deg, #E4FFCD, #6DD5FA, #CCFFFF, #E4FFCD);
+		background-size: 400%;
+		animation: bganimation 15s infinite;
+	}
+
+	@keyframes bganimation {
+		0% {
+			background-position: 0% 50%;
+		}
+
+		50% {
+			background-position: 100% 50%;
+		}
+
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
+	/* paRT_1: header */
+	#header {
+		width: 1200px; 
+		/* center displyed in horizontal */
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 41px;
+		height: 114px;
+	}
+
+	#line1 { /* the fiest line in head */
+		height: 72px;
+	}
+
+	#line1 img { /* logo */
+		margin-left: 50px;
+		margin-right: 33px;
+		vertical-align: middle;
+	}
+
+	#line1 .line { /* the vertical line */
+		border: 2px solid #676767;
+		height: 68px;
+		display: inline-block;
+		margin-right: 23px;
+		background: #676767;
+		vertical-align: middle; /* align by middle line */
+	}
+
+	#line1 .wel-reg { /* welcome msq */
+		font-size: 36px;
+		color: #676767;
+		vertical-align: middle;
+	}
+
+	#header .state-img {
+		display: inline-block;
+		height: 68px;
+		width: 68px;
+		background: url(../img/state_icon/comp_icon.png) no-repeat 10px 10px;
+		vertical-align: middle;
+	}
+
+	#line2 { /* the second line of head */
+		height: 42px;
+		text-align: right;
+	}
+
+	#line2 span { /* alreay have an account */
+		color: #000;
+		font-size: 20px;
+	}
+
+	#line2 a { /* please login */
+		color: #00f;
+		font-size: 20px;
+	}
+
+	/* PART_2: main */
+	#main {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 545px;
+		border: 7px solid #d0d0d0;
+		border-top-width: 9px;
+		border-bottom-width: 9px;
+		padding-top: 20px;
+	}
+
+	#main form { /* form */
+		width: 650px;
+		margin-left: 50px;
+		display: inline-block; /* can display in one line */
+	}
+
+	/* select all input */
+	#main form input {
+		width: 381px;
+		height: 50px;
+		font-size: 16px;
+		color: #999;
+		border: 1px solid #d0d0d0;
+		text-indent: 45px;
+	}
+
+	/* username */
+	#main form input[name='username'] {
+		background: #fff url(../img/icon_6002/u_ico.jpg) no-repeat 15px 15px;
+		margin-left: 50px;
+	}
+
+	/* password and confirm password */
+	#main form input[type='password'] {
+		background: #fff url(../img/icon_6002/p_ico.jpg) no-repeat 15px 15px;
+		margin-left: 50px;
+	}
+
+	/* confirm phone */
+	#main form input[name='phone'] {
+		background: #fff url(../img/icon_6002/phone_ico.jpg) no-repeat 15px 15px;
+		margin-left: 50px;
+	}
+
+	/* confirm email */
+	#main form .yzsj span {
+		font-size: 16px;
+	}
+
+	#main form .yzsj a {
+		font-size: 16px;
+		color: #005ea7;
+	}
+
+	/* select the information under input */
+	#main form .msg {
+		height: 32px;
+		font-size: 15px;
+		text-indent: 55px;
+		color: #000;
+	}
+
+	#main form .alert {
+		color: #e64346;
+	}
+
+	/* I have read */
+	#main form .protocol {
+		font-size: 16px;
+		line-height: 52px;
+		text-indent: 60px;
+	}
+
+	#main form .protocol a {
+		color: #005ea7;
+		text-decoration: none;
+	}
+
+	#main form input[type='submit'] {
+		background: #e64346;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 300px;
+		margin-left: 50px;
+	}
+
+	#main form input[type='reset'] {
+		background: #0000FF;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 200px;
+		margin-left: 50px;
+	}
+
+	#main img {
+		vertical-align: top;
+		float: right;
+		width: 400px;
+		margin: 0 20px;
+	}
+
+	/* part_3: footer */
+	#footer {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 34px;
+		color: #000;
+		font-weight: bold;
+	}
+}
+
+/* This is the style for Mobile*/
+@media screen and (max-width:750px) {
+
+	/* add a background of the page */
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: linear-gradient(125deg, #ffc, #cff, #fcf);
+		background-size: 400%;
+		animation: bganimation 15s infinite;
+	}
+
+	@keyframes bganimation {
+		0% {
+			background-position: 0% 50%;
+		}
+
+		50% {
+			background-position: 100% 50%;
+		}
+
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
+	/* part_1: header */
+	#header {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+		height: 114px;
+	}
+
+	#line1 {
+		height: 72px;
+	}
+
+	#line1 img {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 60px;
+		vertical-align: middle;
+	}
+
+	#line1 .wel-reg {
+		font-size: 20px;
+		color: #676767;
+		vertical-align: middle;
+	}
+
+	#line2 {
+		height: 42px;
+		text-align: right;
+	}
+
+	#line2 span {
+		color: #000;
+		font-size: 14px;
+	}
+
+	#line2 a {
+		color: #00f;
+		font-size: 14px;
+	}
+
+	/* part_2: main */
+	#main {
+		width: 96%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 96%;
+		margin: 0 auto;
+		border-top: 9px solid red;
+		border-bottom: 9px solid red;
+		padding-bottom: 20px;
+		padding-top: 50px;
+	}
+
+	#main form {
+		width: 100%;
+		margin-left: 5%;
+	}
+
+	#main form input {
+		width: 80%;
+		height: 50px;
+		font-size: 16px;
+		color: #999;
+		border: 1px solid #d0d0d0;
+		text-indent: 45px;
+	}
+
+	#main form input[name='username'] {
+		background: #fff url(../img/icon_6002/u_ico.jpg) no-repeat 15px 15px;
+	}
+	
+	#main form input[type='password'] {
+		background: #fff url(../img/icon_6002/p_ico.jpg) no-repeat 15px 15px;
+	}
+
+	#main form input[name='phone'] {
+		background: #fff url(../img/icon_6002/phone_ico.jpg) no-repeat 15px 15px;
+	}
+
+	#main form .yzsj span {
+		font-size: 16px;
+	}
+
+	#main form .yzsj a {
+		font-size: 16px;
+		color: #005ea7;
+	}
+
+	#main form .msg {
+		height: 32px;
+		font-size: 13px;
+		text-indent: 5px;
+		color: #000;
+	}
+
+	#main form .alert {
+		color: #e64346;
+	}
+
+	#main form .protocol {
+		font-size: 16px;
+	}
+
+	#main form .protocol a {
+		color: #005ea7;
+		text-decoration: none;
+	}
+
+	#main form input[type='submit'] {
+		background: #e64346;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 80%;
+		margin: 2% auto;
+	}
+
+	#main form input[type='reset'] {
+		background: #0000FF;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 80%;
+		margin: 2% auto;
+	}
+
+	#main img {
+		display: none;
+	}
+
+	/* part_3: footer */
+	#footer {
+		width: 100%;
+		min-height: 100px;
+		margin: 50px auto;
+	}
+
+	#footer p {
+		/* copyright */
+		text-align: center;
+		font-size: 14px;
+		color: #000;
+		line-height: 34px;
+		font-weight: bold;
+	}
+}
+
+/* This is the style for Tablet*/
+@media screen and (max-width:1200px) and (min-width:750px) {
+
+	/* add background */
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: linear-gradient(125deg, #ccF, #cfc, #9cf);
+		background-size: 400%;
+		animation: bganimation 15s infinite;
+	}
+
+	@keyframes bganimation {
+		0% {
+			background-position: 0% 50%;
+		}
+
+		50% {
+			background-position: 100% 50%;
+		}
+
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
+	/* part_1: header */
+	#header {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 41px;
+		height: 114px;
+	}
+
+	#line1 {
+		height: 72px;
+	}
+
+	#line1 img {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 68px;
+		vertical-align: middle;
+	}
+
+	#line1 .line {
+		border: 2px solid red;
+		height: 68px;
+		display: inline-block;
+		margin-right: 22px;
+		background: red;
+		vertical-align: middle;
+	}
+
+	#line1 .wel-reg {
+		font-size: 30px;
+		color: #676767;
+		vertical-align: middle;
+	}
+
+	#header .state-img {
+		display: inline-block;
+		height: 68px;
+		width: 68px;
+		background: url(../img/state_icon/tab_icon.png) no-repeat 10px 10px;
+		vertical-align: middle;
+	}
+
+	#line2 {
+		height: 42px;
+		text-align: right;
+	}
+
+	#line2 span {
+		color: #000;
+		font-size: 16px;
+	}
+
+	#line2 a {
+		color: #00f;
+		font-size: 16px;
+	}
+
+	/* part_2: main */
+	#main {
+		width: 96%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 650px;
+		border-top: 9px solid red;
+		border-bottom: 9px solid red;
+		padding-top: 20px;
+	}
+
+	#main form {
+		width: 50%;
+		display: inline-block;
+	}
+
+	#main form input {
+		width: 381px;
+		height: 50px;
+		font-size: 16px;
+		color: #999;
+		border: 1px solid #d0d0d0;
+		text-indent: 45px;
+		margin-left: 10px;
+	}
+
+	#main form input[name='username'] {
+		background: #fff url(../img/icon_6002/u_ico.jpg) no-repeat 15px 15px;
+	}
+
+	#main form input[type='password'] {
+		background: #fff url(../img/icon_6002/p_ico.jpg) no-repeat 15px 15px;
+
+	}
+
+	#main form input[name='phone'] {
+		background: #fff url(../img/icon_6002/phone_ico.jpg) no-repeat 15px 15px;
+	}
+
+	#main form .yzsj span {
+		font-size: 16px;
+	}
+
+	#main form .yzsj a {
+		font-size: 16px;
+		color: #005ea7;
+	}
+
+	#main form .msg {
+		height: 32px;
+		font-size: 15px;
+		text-indent: 20px;
+		color: #000;
+	}
+
+	#main form .alert {
+		color: #e64346;
+	}
+
+	#main form .protocol {
+		font-size: 16px;
+		text-indent: 10px;
+	}
+
+	#main form .protocol a {
+		color: #005ea7;
+		text-decoration: none;
+	}
+
+	#main form input[type='submit'] {
+		background: #e64346;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 300px;
+		margin-left: 50px;
+	}
+
+	#main form input[type='reset'] {
+		background: #0000FF;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 0px;
+		width: 300px;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+
+	#main img {
+		vertical-align: top;
+		float: right;
+		width: 200px;
+		margin: 0 20px;
+
+	}
+
+	/* part_3: footer */
+	#footer {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 34px;
+		color: #000;
+		font-weight: bold;
+	}
+}

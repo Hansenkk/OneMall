@@ -1,0 +1,411 @@
+/* written by Zhen Han  ID: 40054003 */
+/* the max device size */
+/* iphone：400 * 876   */
+/* ipad  : 768 * 1024  */
+/* laptop's distributed response layout */
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width:1200px)
+
+{
+
+    .top-logo{
+        position:relative;
+        height: 200px;
+        width: 200px;
+    }
+    .top-role{
+        left: 800px;
+        position: relative;
+        bottom: 200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .left-nav{
+        position:relative;
+        bottom: 250px;
+    }
+    .left-nav nav{
+        left: 0px;
+        font-size: 40px;
+        position:relative;
+        width:250px;
+        height:500px;
+        background-color: silver;
+        align: center;
+        line-height: 90px;
+    }
+
+    .tableEnroll{
+        border: 5px gray solid;
+        border-spacing: 2px;
+        border-collapse: collapse;
+        position:relative;
+        width:1800px;
+        height:300px;
+        left:700px;
+        top:0px;
+
+
+    }
+
+    .tableEnroll td,th{
+        border: 1px gray solid;
+        padding: 25px;
+        text-align: center;
+    }
+
+    tableEnroll tr td button{
+        height:50px;
+        width: 50px;
+        border-radius: 10px;
+
+    }
+
+    .tableM{
+        position:relative;
+        bottom: 800px;
+        border-radius: 10px;
+        border-collapse: collapse;
+    }
+
+    .saveButton{
+        height: 50px;
+        width: 100px;
+        position:relative;
+        bottom: 650px;
+        left:650px;
+        font-size: 35px;
+        border: black solid;
+        margin: 20px;
+    }
+
+    .button{
+        font-size: 20px;
+    }
+
+
+    /*
+    Distributed response layout
+     */
+
+    .addButton{
+        left: 700px;
+        bottom:975px;
+        position: relative;
+        height: 100px;
+        width: 200px;
+        background-color: #aaaaaa;
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-align: center;
+        -webkit-box-align: center;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+
+    .input{
+        position: relative;
+        height: 100px;
+        width: 800px;
+        left: 10px;
+        bottom: 750px;
+        left:100px;
+
+    }
+
+
+
+    .inputter{
+        font-size: 25px;
+        margin: 10px;
+        text-align: right;
+        border-radius: 50px;
+
+    }
+
+    .b_button{
+        position: relative;
+        height:50px;
+        width:100px;
+        font-size: 35px;
+        left: 500px;
+        bottom: 800px;
+    }
+
+}
+
+
+/*this is the size for tablet*/
+@media screen and (max-width:1200px) and (min-width:750px) {
+
+    .top-logo{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .top-role{
+        left: 550px;
+        bottom: 200px;
+        width:200px;
+        height:200px;
+        position: relative;
+    }
+
+    .left-nav{
+        position:relative;
+        bottom: 400px;
+    }
+    .left-nav nav{
+        top:150px;
+        left: 10px;
+        font-size: 25px;
+        position:relative;
+        width:200px;
+        height:400px;
+        bottom:450px;
+        background-color: silver;
+        text-align: center;
+        align: center;
+        line-height: 80px;
+    }
+
+    .tableEnroll{
+        border: 5px gray solid;
+        border-spacing: 2px;
+        border-collapse: collapse;
+        position:relative;
+        width:500px;
+        height:50px;
+        left:300px;
+        position:relative;
+        top:0px;
+
+
+    }
+
+    .tableEnroll td,th{
+        border: 1px gray solid;
+        padding: 30px;
+        text-align: center;
+    }
+
+    tableEnroll tr td button{
+        height:10px;
+        width: 10px;
+        border-radius: 10px;
+
+    }
+
+    .tableM{
+        position:relative;
+        bottom: 575px;
+        border-radius: 10px;
+        border-collapse: collapse;
+    }
+
+    .saveButton{
+        height: 50px;
+        width: 100px;
+        position:relative;
+        bottom: 400px;
+        left:500px;
+        font-size: 35px;
+        border: black solid;
+        margin: 20px;
+    }
+
+    .button{
+        font-size: 20px;
+    }
+
+
+    .addButton{
+        left: 350px;
+        bottom:600px;
+        position: relative;
+        height: 50px;
+        width: 100px;
+        background-color: #aaaaaa;
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-align: center;
+        -webkit-box-align: center;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    .input{
+        position: relative;
+        height: 100px;
+        width: 800px;
+        left: 0px;
+        bottom: 600px;
+    }
+
+
+
+    .inputter{
+        font-size: 30px;
+        margin: 20px;
+        text-align: right;
+    }
+
+    .b_button{
+        position: relative;
+        height:50px;
+        width:150px;
+        font-size: 40px;
+        left: 300px;
+        bottom: 650px;
+    }
+
+}
+
+/* moblie's distributed response layout */
+@media screen and (max-width:750px)
+
+{
+    .top-logo{
+        position: relative;
+        width:100px;
+        height:100px;
+    }
+
+    .top-banners {
+        width:425px;
+        height:350px;
+    }
+
+    .middle_sel{
+        width: 730px;
+        height:220px;
+    }
+    .top-role{
+        width:150px;
+        height:150px;
+        left: 150px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .left-nav{
+        position:relative;
+        bottom: 250px;
+    }
+    .left-nav nav{
+        left: 0px;
+        font-size: 10px;
+        position:relative;
+        width:90px;
+        height:150px;
+        background-color: silver;
+        align: center;
+        line-height: 30px;
+    }
+
+    .tableEnroll{
+        border: 2px gray solid;
+        border-spacing: 1px;
+        border-collapse: collapse;
+        position:relative;
+        width:110px;
+        height:45px;
+        left:100px;
+        top:0px;
+
+
+    }
+
+    .tableEnroll td,th{
+        border: 1px gray solid;
+        padding: 8px;
+        text-align: center;
+    }
+
+    tableEnroll tr td button{
+        height:15px;
+        width: 15px;
+        border-radius: 3px;
+
+    }
+
+    .tableM{
+        position:relative;
+        bottom: 375px;
+        border-radius: 3px;
+        border-collapse: collapse;
+    }
+
+    .saveButton{
+        height: 20px;
+        width: 45px;
+        position:relative;
+        bottom: 175px;
+        left:200px;
+        font-size: 10px;
+        border: black solid;
+        margin: 5px;
+    }
+
+    .button{
+        font-size: 5px;
+    }
+
+
+    /*
+    Distributed response layout
+     */
+
+    .addButton{
+        left: 150px;
+        bottom:400px;
+        position: relative;
+        height: 28px;
+        width: 57px;
+        background-color: #aaaaaa;
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-align: center;
+        -webkit-box-align: center;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    .input{
+        position: relative;
+        height: 28px;
+        width: 320px;
+        left: 50px;
+        bottom: 300px;
+    }
+
+
+
+    .inputter{
+        font-size: 5px;
+        margin: 10px;
+        text-align: right;
+    }
+
+    .b_button{
+        position: relative;
+        height:20px;
+        width:50px;
+        font-size: 15px;
+        left: 120px;
+        bottom: 300px;
+    }
+
+}

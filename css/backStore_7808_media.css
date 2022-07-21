@@ -1,0 +1,476 @@
+
+/*
+Written by Chen, Qian ID:27867808
+
+*/
+
+/* IPAD PRO: Big tablet to 1366px (widths smaller taht the 1200px row) */
+@media only screen and (max-width: 1366px) {
+  
+    /* ========================= */
+    /* header */
+    /* ========================= */
+    
+    header {
+        width: 1366px;
+        height: 150px;
+    }
+    
+
+    
+    figure .logo{
+        float: left;
+        height: 150px;
+        width: 150px;
+        margin-left: 5em;
+    }
+    
+    .user {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-right: 25rem;
+        margin-top: 2rem;
+    }
+ 
+    
+    /* ========================= */
+    /* banner */
+    /* ========================= */
+    
+    .banner {
+        height: 30rem;
+        width: 20%;
+        margin: 10px auto;
+    }
+    
+    .banner a {
+        display: block;
+        width: 12rem;
+        height: 2.5rem;
+        background-color: #eee;
+        font-size: 20px;
+        color: black;
+        padding-left: 2em;
+        line-height: 2.5rem;
+    
+    }
+
+    /* ========================= */
+/* Add button */
+/* ========================= */
+
+#add {
+    float: right;
+    margin-right:10%;
+    font-size:18px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    width: 8%;
+    height: 29px;
+  }
+  #add:hover{
+    cursor: pointer;
+    background-color: #f59e42;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+
+
+    
+    /* ========================= */
+    /* product List */
+    /* ========================= */
+    
+    .productList{
+        display: block;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    /* border for table */
+    .product_table,
+    row,
+    
+    .product_table{
+        text-align: center;
+        font-size: 18px;
+        border-collapse: collapse;
+    }
+ 
+}
+
+
+/* IPAD: Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+/* ========================= */
+/* header */
+/* ========================= */
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+
+figure .logo{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: 5em;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+
+.user p {
+    margin-top:10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* ========================= */
+/* banner */
+/* ========================= */
+
+.banner {
+    height: 30rem;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.banner a {
+    display: block;
+    width: 10rem;
+    height: 50px;
+    background-color: #eee;
+    font-size: 20px;
+    color: black;
+    padding-left: 1.5em;
+    line-height: 50px;
+
+}
+
+/* ========================= */
+/* Add button */
+/* ========================= */
+
+#add {
+    float: right;
+    margin-right:15px;
+    font-size:18px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    width: 8%;
+    height: 29px;
+  }
+  #add:hover{
+    cursor: pointer;
+    background-color: #f59e42;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+
+
+/* ========================= */
+/* product List */
+/* ========================= */
+
+.productList{
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* border for table */
+
+.product_table{
+    text-align: center;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+}
+
+
+
+/* iphone 8plus: Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+ 
+    /* ========================= */
+    /* header */
+    /* ========================= */
+    
+    header {
+        width: 100%;
+        height: 150px;
+    }
+    
+   
+    
+    figure .logo{
+        float: left;
+        height: 10rem;
+        width: 10rem;
+        margin-left: .5em;
+    }
+    
+    .user {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    
+    
+    
+    .user p {
+        margin-top:10px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    /* ========================= */
+    /* banner */
+    /* ========================= */
+    
+    .banner {
+        /* display: none; */
+        height: 8rem;
+        width: 100%;
+        /* margin: 1rem auto; */
+    }
+    
+    .banner a {
+        display: block;
+        width: 100%;
+        height: 2.5rem;
+        background-color: #eee;
+        font-size: 28px;
+        color: black;
+        padding-left: .5rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    
+    .banner a:hover {
+        background-color: #f59e42;
+    }
+    
+/* ========================= */
+/* Add button */
+/* ========================= */
+
+#add {
+    float: right;
+    margin-right:15%;
+    font-size:18px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    width: 15%;
+    height:3rem;
+  }
+  #add:hover{
+    cursor: pointer;
+    background-color: #f59e42;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+    /* ========================= */
+    /* product List */
+    /* ========================= */
+    
+    .productList{
+        display: block;
+        /* margin-top: 30px; */
+        /* margin-left: 20px; */
+    }
+    
+    /* border for table */
+    .product_table,
+    row,
+    th,
+    td {
+        border:1px solid black;
+    }
+    .product_table{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        border-collapse: collapse;
+    }
+    
+    
+    .product_table .row {
+        /* width: 10rem; */
+        height: 4rem;
+        
+    }
+    .product_table .row .buttons{
+        width: 16rem;
+    }
+    
+    
+    .product_table .row .buttons button {
+        display: inline-block;
+        height: 3rem;
+        width: 25%;
+        text-align: center;
+        font-size: 16px;
+        background-color: #fff;
+        border-radius: 12px;
+        transition: 0.4s;
+        
+    }
+    .product_table .row .buttons button:hover{
+        cursor: pointer;
+        background-color: #f59e42;
+        box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.5);
+    }
+    
+}
+
+
+/*  iPhone 5:Small phones: from 0 to 667px */
+@media only screen and (max-width: 480px) {
+ 
+    /* ========================= */
+    /* header */
+    /* ========================= */
+    
+    header {
+        width: 100%;
+        height: 150px;
+    }
+    
+ 
+    figure .logo{
+        float: left;
+        height: 10rem;
+        width: 10rem;
+        margin-left: .5em;
+    }
+    
+    .user {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    
+  
+    
+    .user p {
+        margin-top:10px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    /* ========================= */
+    /* banner */
+    /* ========================= */
+    
+    .banner {
+        /* display: none; */
+        height: 8rem;
+        width: 100%;
+        /* margin: 1rem auto; */
+    }
+    
+    .banner a {
+        display: block;
+        width: 100%;
+        height: 2.5rem;
+        background-color: #eee;
+        font-size: 28px;
+        color: black;
+        padding-left: .5rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    
+/* ========================= */
+/* Add button */
+/* ========================= */
+
+#add {
+    float: right;
+    margin-right:5%;
+    font-size:18px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    width: 15%;
+    height:3rem;
+  }
+  #add:hover{
+    cursor: pointer;
+    background-color: #f59e42;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+    
+    /* ========================= */
+    /* product List */
+    /* ========================= */
+    
+    .productList{
+        display: block;
+        /* margin-top: 30px; */
+        /* margin-left: 20px; */
+    }
+    
+    /* border for table */
+    .product_table,
+    row,
+    th,
+    td {
+        border:1px solid black;
+    }
+    .product_table{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        border-collapse: collapse;
+    }
+    
+    
+    .product_table .row {
+        /* width: 10rem; */
+        height: 4rem;
+        
+    }
+    .product_table .row .buttons{
+        width: 50rem;
+    }
+    
+    
+    .product_table .row .buttons button {
+        display: inline-block;
+        height: 3rem;
+        width: 40%;
+        text-align: center;
+        font-size: 16px;
+        background-color: #fff;
+        border-radius: 12px;
+        transition: 0.4s;
+        
+    }
+    .product_table .row .buttons button:hover{
+        cursor: pointer;
+        background-color: #f59e42;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+    }
+}

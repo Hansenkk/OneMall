@@ -1,0 +1,253 @@
+/* author: Tianfei Qi
+   ID: 40079518
+   This is css for P9
+*/
+/* responsive page for computer */
+@media screen and (min-width: 1200px) {
+  .container {
+    display: block;
+    max-width: 1080px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+  }
+  .user {
+    width: 100px;
+    height: 100px;
+    float: right;
+  }
+  .User {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Add {
+    width: 55px;
+    height: 30px;
+  }
+  .clear-float:after,
+  .clear-float:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .col-1,
+  .col-5 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+  }
+  .col-1 {
+    width: 5%;
+  }
+  .col-5 {
+    width: 50%;
+  }
+  .banner {
+    display: block;
+    background-color: lightgrey;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 5%;
+    float: left;
+  }
+  .banner a {
+    text-decoration: none;
+  }
+  table {
+    width: 500px;
+
+    border-top: 1px solid #000;
+
+    border-left: 1px solid #000;
+  }
+  table td,
+  th {
+    padding: 10px 30px;
+
+    border-bottom: 1px solid #000;
+
+    border-right: 1px solid #000;
+  }
+
+  table {
+    width: 500px;
+
+    border-top: 1px solid #000;
+
+    border-left: 1px solid #000;
+
+    border-spacing: 0;
+  }
+}
+/* This responsive page is for tablet */
+@media screen and (max-width: 1200px) and (min-width: 750px) {
+  .container {
+    display: block;
+    max-width: 1080px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+  }
+  .user {
+    width: 80px;
+    height: 80px;
+    float: right;
+  }
+  .User {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .Add {
+    width: 55px;
+    height: 30px;
+  }
+  .clear-float:after,
+  .clear-float:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .col-1,
+  .col-5 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+  }
+  .col-1 {
+    width: 5%;
+  }
+  .col-5 {
+    width: 50%;
+  }
+  .banner {
+    background-color: lightgrey;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .banner a {
+    text-decoration: none;
+}
+
+  table {
+    width: 100%;
+
+    border-top: 1px solid #000;
+
+    border-left: 1px solid #000;
+  }
+  table td,
+  th {
+    padding: 10px 30px;
+
+    border-bottom: 1px solid #000;
+
+    border-right: 1px solid #000;
+  }
+
+  table {
+    width: 100%;
+
+    border-top: 1px solid #000;
+
+    border-left: 1px solid #000;
+
+    border-spacing: 0;
+  }
+}
+/* This responsive page is for phone */
+@media screen and (max-width: 750px) {
+  .container {
+    display: block;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .user {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .User {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+  }
+  .Add {
+    width: 55px;
+    height: 30px;
+    float: right;
+  }
+  .clear-float:after,
+  .clear-float:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .col-1,
+  .col-5 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+  }
+  .col-1 {
+    width: 5%;
+  }
+  .col-5 {
+    width: 50%;
+  }
+  .banner {
+    background-color: lightgrey;
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+  .banner a {
+    text-decoration: none;
+}
+
+  table td,
+  th {
+    border-bottom: 1px solid #000;
+
+    border-right: 1px solid #000;
+  }
+
+  table {
+    width: 100%;
+
+    border-top: 1px solid #000;
+
+    border-left: 1px solid #000;
+
+    border-spacing: 0;
+  }
+}

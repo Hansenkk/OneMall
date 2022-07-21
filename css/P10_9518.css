@@ -1,0 +1,169 @@
+/*/* author: Tianfei Qi
+   ID: 40079518
+   This is css for P10 
+ */
+
+ /* responsive page for computer */
+@media screen and (min-width:1200px){
+
+
+.container{
+    display: block;
+    max-width: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    display: block;
+    background-color:lightgrey;
+   font-size: 25px;
+   padding-right: 80px;
+   padding-left: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   float: left;
+   
+}
+
+.banner a {
+    text-decoration: none;
+}
+
+
+.clear-float:after,.clear-float:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.User {
+    font-size: 20px;
+    text-align: center;
+  }
+H1{
+    font-size: 50px;
+}
+td{
+    font-size: 20px;
+}
+}
+
+/* responsive page for tablet */
+@media screen and (max-width:1200px) and (min-width:750px){
+    .container{
+        display: block;
+        max-width: 500px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner{
+        display: block;
+        background-color:lightgrey;
+        float: left;
+        width: 100px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    .banner a {
+        text-decoration: none;
+    }
+    .clear-float:after,.clear-float:after{
+        content: "";
+        display: block;
+        clear: both;
+    
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+    .user{
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-top: 15px;
+    }
+    .User {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+      }
+    H1{
+        font-size: 50px;
+    }
+    td{
+        font-size: 20px;
+    }
+    }
+
+/* responsive page for phone */
+@media screen and (max-width:750px){
+    .container{
+        display: block;
+        max-width: 500px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner{
+        display: block;
+        background-color:lightgrey;
+       font-size: 25px;
+       padding-right: 80px;
+       padding-left: 50px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 50%;
+       padding-right: 50%;
+    
+    }
+    .banner a {
+        text-decoration: none;
+    }
+    .clear-float:after,.clear-float:after{
+        content: "";
+        display: block;
+        clear: both;
+    
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .user{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .User {
+        margin-top: 0;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+      }
+    H1{
+        font-size: 50px;
+    }
+    td{
+        font-size: 20px;
+    }
+    }
