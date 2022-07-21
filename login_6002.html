@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Written by: Fangzheng, Liu 40116002 -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Fangzheng Liu" />
+		<meta name="author_id" content="40116002" />
+		<!-- this tag is used to make the site responsive -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Welcome to SOEN287 store</title>
+		<!-- import login.css -->
+		<link rel="stylesheet" href="css/login_6002.css" />
+		<!-- import login.js -->
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/login_6002.js"></script>
+	</head>
+	<body>
+		<div class="bk">
+			<!-- part_1: header -->
+			<header id="header">
+				<a href="Index_5067.html"><img src="images/LOGO_5067.png" width="6%" /></a>
+				<span class="line"></span>
+				<span class="wel-login">WELCOME TO One-MALL!</span>
+				<span class="state-img"></span>
+			</header>
+			<!-- part_2: main content -->
+			<div id="middle">
+				<span id="adv">
+					<img src="./img/adv_6002.jpg" />
+				</span>
+				<!-- onsubmit="return sub()" -->
+				<form id="form" action="/A3/login_6002.php" method="post">
+					<h1>Login</h1>
+					<div id="err-msg">Incorrect username or password！</div>
+					<input type="text" id="user" name="user" placeholder="username/email..." />
+					<input type="password" id="pwd" name="psw" placeholder="password" />
+					<div>login as
+					<select id="select" name="role">
+						<option selected="selected">Customer</option>
+						<option>Admin</option>
+					</select>
+					</div>
+					<br>
+					<input type="submit" id="submit" value="Submit"/>
+					<input type="button" value="Forget password" onclick="fp()"/>
+					<div>
+						<span>No account?</span>
+						<a href="regist_6002.html">Regist now!</a>
+					</div>
+				</form>
+			</div>
+			<!-- part_3: footer -->
+			<footer id="footer">
+				<p>
+					About us | Contact us | Download app
+					<br />
+					Copyright © 2021 - 2025 One Mall All Rights Reserved
+				</p>
+			</footer>
+		</div>	
+	</body>
+</html>

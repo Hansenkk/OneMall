@@ -1,0 +1,14 @@
+admin:123456:Admin:(438)158745
+123:123:Customer:123456
+123:123457:Admin:123456
+777:123:Admin:123456
+1111:1111:Customer:1
+1111:2222:Customer:1
+1111:1111:Customer:1
+1234:aaaa:Customer:4157
+1587:7777:Customer:1111
+3333:3333:Admin:1
+张三李四:1254:Customer:
+交电话费卡德加:1234:Customer:
+123		:aaaa:Customer:12
+嘻嘻嘻嘻嘻嘻:xxxxx:Customer:xxxx

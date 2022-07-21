@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Written by: Fangzheng, Liu 40116002 -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+		<!-- import regist.css -->
+		<link rel="stylesheet" href="./css/regist_6002.css" />
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/regist_6002.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body>
+		<div class="bk">
+			<!-- part_1: header -->
+			<div id="header">
+				<div id="line1">
+					<!-- the first line of header -->
+					<a href="Index_5067.html"><img src="images/LOGO_5067.png" width="6%" /></a>
+					<span class="line"></span>
+					<span class="wel-reg">WELCOME TO <b>REGIST</b>!</span>
+					<span class="state-img"></span>
+				</div>
+				<div id="line2">
+					<!-- the second line of header -->
+					<span>Already registed?</span>
+					<a href="login_6002.html">Please login!</a>&nbsp;
+				</div>
+			</div>
+			<!-- part_2: main -->
+			<div id="main">
+				<form id="form" onsubmit="return rn()">
+					<!-- username -->
+					<input id="user" type="text" name="username" placeholder="Username/Email..." />
+					<!-- the information under username -->
+					<p class="msg">alphanumeric character, 4-20 characters</p>
+					<!-- password -->
+					<input id="pwd" type="password" name="pwd" placeholder="Set password">
+					<!-- the information under password -->
+					<p class="msg">Suggetion: combine of number and letter</p>
+					<!-- confirm password -->
+					<input id="repwd"type="password" name="repwd" placeholder="Confirm password" />
+					<p id="err-msg" class="msg alert">Two passwords are not same, please check!</p>
+					<!-- confirm phone -->
+					<div class="yzsj">
+						<input id="phone" type="text" name="phone" placeholder="Confirm phone" />
+					</div>
+					<!-- agree protocal -->
+					<p class="protocol">
+						<span>□ I have already read and accept</span>
+						<a href="#">《One-MALL user protocol》</a>
+					</p>
+					<!-- reset and submit button -->
+					<input type="reset" value="Reset" />
+					<input type="submit" value="Regist Now"/>
+				</form>
+				<img src="img/icon_6002/regist_icon.png" />
+			</div>
+			<!-- part_3: footer -->
+			<div id="footer">
+				<p>
+					About us | Contact us | Download app
+					<br/>
+					Copyright © 2021 - 2025 One Mall All Rights Reserved
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

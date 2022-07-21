@@ -1,0 +1,116 @@
+<!DOCTYPE  html>
+<!-- Written by: Yujing Wang 40098623 -->
+<html lang="en">
+<head>
+     <title>Shop cart</title>
+     <meta charset="UTF-8">
+	 <meta name="writer" content="Yujing Wang">
+	 <meta name="id" content="40098623">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="css/shopcart_8623.css">
+	 <link rel="stylesheet" href="css/p2_p3_general.css"/>
+</head>
+
+<body onload="loadDisplayItems()">
+<!-- part_1: header -->
+		<div id="header">
+			<div class="container">
+				<div class="header_left fleft">
+					<div class="tel">Welcome to One-Mall!</div>
+					<span id="state" />
+				</div>
+				<ul class="fright">
+					<li><a href="login_6002.html">Login</a></li>
+					<li><a href="regist_6002.html">Sign up</a></li>
+					<li><a id="name">Account</a></li>
+					<li class="sc">
+						<a href="shopcart_8623.html">Shop Cart
+				    	<ion-icon name = "basket"></ion-icon><span>0</span>
+						</a></li>
+					<ul>
+			</div>
+		</div>
+		<!-- part_2: banner -->
+		<div id="banner">
+			<div class="container">
+				<form>
+					<input type="text" class="sbar" placeholder="Search what you want ..." />
+					<input type="submit" value="Search" class="sbtn" />
+				</form>
+			</div>
+		</div>
+		<!-- paer_3: navigate menu -->
+		<div id="nav">
+			<div class="container">
+				<ul class="nag">
+					<li class="first">
+						<a href="#">AISLES</a>
+						<ul class="dropdown">
+						    <li><a href="fruit_6002.html">Fruits</a></li>
+						    <li><a href="vegetable_9518.html">Vegetables</a></li>
+						    <li><a href="bakery_7808.html">Bakery</a></li>
+						    <li><a href="Dairy_&_Eggs_5067.html">Dairy & Eggs</a></li>
+						    <li><a href="meat_4003.html">Meat</a></li>
+						    <li><a href="fish_8623.html">Fish and Seafoods</a></li>
+						</ul>
+					</li>
+					<li><a href="Index_5067.html">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+    
+	
+	<!-------------cart items details------------->
+	
+	<div class="small-container cart-page">
+	  
+	  <table id="cart_table">
+		<tbody>
+	      <tr>
+		      <th>Product</th>
+			  <th>Quantity</th>
+			  <th>Subtotal</th>
+		  </tr>
+		</tbody>
+	  </table>
+	  
+	  <div class="total-price">
+	  
+	    <table>
+		<tr>
+			 <td>Total Items</td>
+				<td id="ti"></td>
+			 </tr>
+		     <tr>
+			    <td>Subtotal</td>
+				<td id="st"></td>
+			 </tr>
+			  <tr>
+			    <td>QST</td>
+				<td id="qst"></td>
+			 </tr>
+			  <tr>
+			    <td>GST</td>
+				<td id="gst"></td>
+			 </tr>
+			  <tr>
+			    <td>Total</td>
+				<td id="tt"></td>
+			 </tr>
+		</table>
+	  
+	</div>
+	<div>
+		<button onclick="emptyCart()"> Empty Cart</button>
+	</div>
+	
+	<footer id="footer">
+			<p>
+				About us | Contact us | Download app
+				<br />
+				Copyright © 2021 - 2025 One Mall All Rights Reserved
+			</p>
+		</footer>
+		<script src = "/js/shopcart.js"></script>
+	</body>
+</html>	

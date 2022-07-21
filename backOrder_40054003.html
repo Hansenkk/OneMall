@@ -1,0 +1,237 @@
+<!-- written by Zhen Han  ID: 40054003-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>backOrder</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/backOrder_40054003.css" />
+</head>
+
+<body>
+    <div class="top-banners">
+        <div top-logo-banner>
+            <img src="img/default.png" class="top-logo">
+        </div>
+
+        <div class="top-role">
+            <a href="">
+                <img src="img/admin.jpg" class="top-role">
+            </a>
+        </div>
+    </div>
+
+    <div class=left-nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./backStore_7808.html">Products</a>
+                </li>
+                <li><a href="./Users_9518.html">Users</a></li>
+                <li><a href="./backOrder_40054003.html">Orders</a></li>
+            </ul>
+        </nav>
+    </div>
+    <input type="button" class="addButton" value="Add" onclick="add()" >
+
+    <table class="tableEnroll tableM" id = "tableN" name="tableKK">
+        <tr id="top">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Inventory</th>
+            <th>Price</th>
+            <th>Edit</th>
+        </tr>
+        <tr>
+            <td name="ids">1</td>
+            <td>Eric</td>
+            <td>400</td>
+            <td>4000</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick=update(this)>
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton1" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">2</td>
+            <td>Eddie</td>
+            <td>400</td>
+            <td>56800</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton2" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">3</td>
+            <td>Gary</td>
+            <td>1000</td>
+            <td>34900</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton3" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">4</td>
+            <td>May</td>
+            <td>550</td>
+            <td>29900</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton4" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">5</td>
+            <td>Han</td>
+            <td>700</td>
+            <td>1000</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton5" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">6</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton6" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">7</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton7" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">8</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick=update(this)>
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton8" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">9</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton9" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+        <tr>
+            <td name="ids">10</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>
+                <input type="button" class="button" value="Edit" onclick="update(this)">
+                <input type="button" class="button" value="Save" onclick="save(this)">
+                <input type="button" class="delbutton10" value="Delete" onclick="delTr(this)">
+            </td>
+        </tr>
+    </table>
+
+    <div class="footer" align=center>
+        <p>
+            About us | Contact us | Download app
+        </p>
+
+        <p>Copyright © 2021 - 2025 One Mall All Rights Reserved</p>
+    </div>
+    </div>
+    </div>
+</body>
+    <script src="js/jquery-1.8.3.min.js"> </script>
+
+
+<script>
+    function update(obj){
+
+        var point = obj.parentNode.parentNode;
+        var oldval1=point.childNodes[1].textContent
+        var oldval2=point.childNodes[3].textContent
+        var oldval3=point.childNodes[5].textContent
+        var oldval4=point.childNodes[7].textContent
+
+        point.childNodes[1].innerHTML= ("<td><input type='text' id='idk' value='"+oldval1+"'/ ></td>")
+        point.childNodes[3].innerHTML= ("<td><input type='text' id='namek' value='"+oldval2+"'/ ></td>")
+        point.childNodes[5].innerHTML= ("<td><input type='text' id='inventoryk' value='"+oldval3+"'/ ></td>")
+        point.childNodes[7].innerHTML= ("<td><input type='text' id='pricek' value='"+oldval4+"'/ ></td>")
+
+
+
+    }
+
+    function save(obj){
+        var point = obj.parentNode.parentNode;
+
+        var idk = document.getElementById("idk")
+        var namek = document.getElementById("namek")
+        var inventoryk = document.getElementById("inventoryk")
+        var pricek = document.getElementById("pricek")
+
+
+
+        point.childNodes[1].innerText = idk.value
+        point.childNodes[3].innerText = namek.value
+        point.childNodes[5].innerText = inventoryk.value
+        point.childNodes[7].innerText = pricek.value
+
+    }
+
+    function delTr(obj){
+        var table =obj.parentNode.parentNode.parentNode;
+        console.log(obj.parentNode.parentNode.parentNode)
+        var tr = obj.parentNode.parentNode;
+        console.log(obj.parentNode.parentNode)
+        table.removeChild(tr)
+    }
+
+    function add(){
+
+        // console.log(document.getElementById("tableN").appendChild( Node()))
+
+        var $paramCode = $('<tr>\n' +
+            '             <td><input type=\'text\' id=\'idkk\' / ></td>\n' +
+            '             <td><input type=\'text\' id=\'namekk\' / ></td>\n' +
+            '             <td><input type=\'text\' id=\'inventorykk\' / ></td>' +
+            '             <td><input type=\'text\' id=\'pricekk\' / ></td>\n' +
+            '            <td>\n' +
+            '                <input type="button" class="button" value="Edit" onclick="update(this)">\n' +
+            '                <input type="button" class="button" value="Save" onclick="save(this)">\n' +
+            '                <input type="button" class="delbutton10" value="Delete" onclick="delTr(this)">\n' +
+            '            </td>\n' +
+            '        </tr>');
+        $(document.getElementById("tableN")).append($paramCode)
+
+    }
+
+
+console.log()
+</script>
+
+</html>
