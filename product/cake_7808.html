@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Written by: Chen, Qian 27867808 -->
+<html lang="en">
+	<head>
+		<title>Cake</title>
+		<meta charset="UTF-8">
+		<meta name="writer" content="Chen Qian">
+		<meta name="id" content="27867808">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/p3_bakery.css" />
+		<link rel="stylesheet" href="../css/p2_p3_general.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/user_cookie.js"></script>
+		<script src="../js/product_description.js"></script>
+	</head>
+	<body>
+		<!-- part_1: header -->
+		<div id="header">
+			<div class="container">
+				<div class="header_left fleft">
+					<div class="tel">Welcome to One-Mall!</div>
+					<span id="state" />
+				</div>
+				<ul class="fright">
+					<li><a href="../login_6002.html">Login</a></li>
+					<li><a href="../regist_6002.html">Sign up</a></li>
+					<li><a id="name">Account</a></li>
+					<li class="sc"><span></span><a href="../shopcart_8623.html">Shop cart</a></li>
+				<ul>
+			</div>
+		</div>
+		<!-- part_2: banner -->
+		<div id="banner">
+			<div class="container">
+				<form>
+					<input type="text" class="sbar" placeholder="Search what you want ..." />
+					<input type="submit" value="Search" class="sbtn" />
+				</form>
+			</div>
+		</div>
+		<!-- part_3: navigate bar -->
+		<div id="nav">
+			<div class="container">
+				<ul class="nag">
+					<li class="first">
+						<a href="#">AISLES</a>
+						<ul class="dropdown">
+							<li><a href="../fruit_6002.html">Fruits</a></li>
+							<li><a href="../vegetable_9518.html">Vegetables</a></li>
+							<li><a href="../bakery_7808.html">Bakery</a></li>
+							<li><a href="../Dairy_&_Eggs_5067.html">Dairy & Eggs</a></li>
+							<li><a href="../meat_4003.html">Meat</a></li>
+							<li><a href="../fish_8623.html">Fish</a></li>
+						</ul>
+					</li>
+					<li><a href="../Index_5067.html">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- part_4: main -->
+		<div id="null">
+			<div class="container">
+				<div class="pic">
+					<img src="../img/product_xxxx/cake_7808.jpg">
+				</div>
+				<div class="disp">
+					<h1>🍰| Cake</h1>
+					<p>Item #: 40110003</p>
+					<h2 id="price">$5.99/Each</h2>
+					<p class="qual">Quantity:</p>
+					<p id="rt"> Added into cart!!</p>
+					<div>
+						<input type="number" id="quan" />
+						<button id="add"  onclick="addQuantity('cake', this)"> Add </button>
+						<span id="tt"></span>
+					</div>
+					<br>
+					<hr />
+					<h2>Product Details</h2>
+					<button id="showmore"> show more... </button>
+					<p id="showMoreDescription">Our best seller of the chocolate cakes, sweet and delicious, sold out soon!!!
+				</div>
+			</div>
+		</div>
+		<!-- part_5: footer -->
+		<footer id="footer">
+			<p>
+				About us | Contact us | Download app
+				<br />
+				Copyright © 2021 - 2025 One Mall All Rights Reserved
+			</p>
+		</footer>
+		<script src = "../js/shopcart.js"></script>
+	</body>
+</html>
